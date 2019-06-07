@@ -1,0 +1,5 @@
+const html2pug = require('html2pug')
+const clipboardy = require('clipboardy')
+const html = clipboardy.readSync()
+const pug = html2pug(html, { fragment: true })
+clipboardy.writeSync(pug)

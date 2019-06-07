@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "alfy": "^0.8.0",
+    "clipboardy": "^2.0.0",
+    "html2pug": "^4.0.0"
+  },
+  "description": "Convert HTML to Pug in Alfred",
+  "keywords": [
+    "alfred",
+    "workflow",
+    "html2pug"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "alfred-html2pug",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "version": "1.0.2"
+}
