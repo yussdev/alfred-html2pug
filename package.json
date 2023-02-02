@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "alfy": "^0.8.0",
+    "alfy": "^1.1.0",
     "clipboardy": "^2.0.0",
     "html2pug": "^4.0.0"
   },
